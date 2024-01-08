@@ -162,7 +162,7 @@ st.subheader("Maximal recorded values")
 statsDataframe = cityDataframe.loc[cityDataframe['AverageTemperature'].idxmax()].iloc[:,:-2]
 st.write(statsDataframe)
 
-st.subheader("Maximal recorded values")
+st.subheader("Minimal recorded values")
 
 statsDataframe = cityDataframe.loc[cityDataframe['AverageTemperature'].idxmin()].iloc[:,:-2]
 st.write(statsDataframe)
